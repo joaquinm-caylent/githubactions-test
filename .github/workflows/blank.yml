@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Release
-        uses: parkside-securities/gitops-actions@0.3.8
+        uses: parkside-securities/gitops-actions@0.3.14
         with:
           cmd: release_master
         env:
